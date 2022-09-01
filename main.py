@@ -236,7 +236,7 @@ def send_message(form):
     #         connection.login(user=my_email, password=my_password)
     #         connection.sendmail(from_addr=my_email, to_addrs="ntguppy13@gmail.com", msg=people_message, logged_in=current_user.is_authenticated)
     
-   if __name__ == "__main__":
+if __name__ == "__main__":
     app.debug = True
     app.run(host='0.0.0.0', port=5000)
 
